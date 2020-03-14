@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.picture{
+    margin-left: 40px;
+}
+main{
+    text-align: center;
+    border: 1px solid red;
+}
+.back{
+    background-image: url(./shop.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 372px;
+    width: 994px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mainXXX{
+    display: inline-block;
+    border: 1px solid red;
+    padding-top: 70px;
+}
+kbd{
+    border: 1px solid rgb(174, 0, 255);
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+kbd>button{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: none;
+}
+kbd:hover>button{
+    display: inline-block;
+}
+#mainXXX>div:nth-child(2){
+    margin-left: 2em;
+}
+#mainXXX>div:nth-child(3){
+    margin-left: 4em;
+}
